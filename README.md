@@ -2,6 +2,11 @@
 
 Las máquinas virtuales disponibles están configuradas para disponidor de 2 cores y 2 GB de memoria RAM, pero usted puede cambiar esta configuración desde VirtualBox.
 
+## Antes de empezar
+
+* Debe tener por lo menos 20 GB de espacio libre en su disco duro.
+* Instalar el [paquete](https://drive.google.com/file/d/14INu8uW38vVVi1LEN8iZlwWvrf0QWgmz/view?usp=sharing) de extensiones de VirtualBox.
+
 ## Imágenes disponibles
 
 * [Ubuntu-18.04](https://drive.google.com/file/d/1az_z5qO1UpoqoB-XD-b2EVzUN09vU1Ud/view?usp=sharing)
