@@ -6,7 +6,7 @@ Las máquinas virtuales disponibles están configuradas para disponidor de 2 cor
 
 * Debe tener por lo menos 20 GB de espacio libre en su disco duro.
 * Instalar el [paquete](https://drive.google.com/file/d/14INu8uW38vVVi1LEN8iZlwWvrf0QWgmz/view?usp=sharing) de extensiones de VirtualBox.
-* VirtualBox y sus dependencias y utilidades deben estar en la variable de entorno "Path"
+* La ruta donde se encuentra VirtualBox, sus dependencias y utilidades deben estar en la variable de entorno "Path"
 
 ## Imágenes disponibles
 
