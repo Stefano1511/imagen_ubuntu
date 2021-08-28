@@ -68,6 +68,16 @@ sudo shutdown -P now
 
 ## Para el archivo `config`
 
+Para abrir el archivo `config` hace click en el ícono azul ubicado en la esquina inferior izquierda y selecciona la opción "Open SSH Configuration File ..."
+
+![vscode-config-file](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-config-file.png)
+
+Luego seleccionar la primera opción
+
+![vscode-config-file-2](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-config-file-2.png)
+
+En el archivo que se abra coloque lo siguiente
+
 ```shell
 Host ubuntu18
   HostName 127.0.0.1
