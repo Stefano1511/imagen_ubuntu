@@ -37,6 +37,14 @@ Las máquinas virtuales disponibles están configuradas para disponer de 2 cores
 
 ## Comandos
 
+Primero, debe abrir un terminal desde Visual Studio Code. Para esto, va a la pestaña "Terminal" y elige "Nuevo terminal"
+
+![vscode-terminal](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-terminal.png)
+
+Debería observar una sección similar a la siguiente, y se ubica en ella para poder ejecutar los comandos.
+
+![vscode-terminal-2](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-terminal-2.png)
+
 * Para ver las máquinas virtuales disponibles
 
 ```shell
