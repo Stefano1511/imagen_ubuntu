@@ -12,6 +12,28 @@ Las máquinas virtuales disponibles están configuradas para disponidor de 2 cor
 * [Ubuntu-18.04](https://drive.google.com/file/d/1az_z5qO1UpoqoB-XD-b2EVzUN09vU1Ud/view?usp=sharing)
 * [Ubuntu-20.04](https://drive.google.com/file/d/1m_NJOja1VXeqs6pnyCVahivZhBzPhw9D/view?usp=sharing)
 
+## Importar VM
+
+* Desde la GUI de VirtualBox ir a la opción Archivo, luego seleccionar "Importar servicio virtualizado"
+
+![primer-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm.png)
+
+* Debería observar una ventana de diálogo como la siguiente, haga click en el ícono del directorio
+
+![segundo-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-1.png)
+
+* Se debe ubicar en el directorio donde está alguna de las VMs que ha descargado y hacer click en "Abrir"
+
+![tercer-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-2.png)
+
+* Debería observar una ventana de diálogo como la siguiente, haga click en "Next"
+
+![cuarto-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-3.png)
+
+* Por último, hace click en "Importar" y espera a que el servicio termine de ser importado
+
+![quinto-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-4.png)
+
 ## Comandos
 
 * Para ver las máquinas virtuales disponibles
