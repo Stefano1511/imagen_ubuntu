@@ -1,6 +1,6 @@
 # VMs
 
-Estos apuntos están dirigidos a usuarios de Windows10. Las máquinas virtuales disponibles están configuradas para disponer de 2 cores y 2 GB de memoria RAM, pero usted puede cambiar esta configuración desde VirtualBox.
+Estos apuntes están dirigidos a usuarios de Windows10. Las máquinas virtuales disponibles están configuradas para disponer de 2 cores y 2 GB de memoria RAM, pero usted puede cambiar esta configuración desde VirtualBox.
 
 ## Antes de empezar
 
