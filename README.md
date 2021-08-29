@@ -11,7 +11,7 @@ Estos apuntes están dirigidos a usuarios de Windows10. Las máquinas virtuales 
 
 ## Imágenes disponibles
 
-* [Ubuntu-18.04](https://drive.google.com/file/d/1az_z5qO1UpoqoB-XD-b2EVzUN09vU1Ud/view?usp=sharing)
+* [Ubuntu-18.04](https://drive.google.com/file/d/17eUGPDmPD8C9plIF1EdrqPL8qmOOJ9tw/view?usp=sharing)
 * [Ubuntu-20.04](https://drive.google.com/file/d/1m_NJOja1VXeqs6pnyCVahivZhBzPhw9D/view?usp=sharing)
 
 ## Importar VM
