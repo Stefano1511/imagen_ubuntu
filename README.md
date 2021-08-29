@@ -7,7 +7,7 @@ Estos apuntes están dirigidos a usuarios de Windows10. Las máquinas virtuales 
 * Debe tener por lo menos 20 GB de espacio libre en su disco duro.
 * Instalar el [paquete](https://drive.google.com/file/d/14INu8uW38vVVi1LEN8iZlwWvrf0QWgmz/view?usp=sharing) de extensiones de VirtualBox.
 * La ruta donde se encuentra VirtualBox, sus dependencias y utilidades deben estar en la variable de entorno "Path".
-* Debe tener instalado Visual Studio Code con la extensión Remote-SSH
+* Debe tener instalado Visual Studio Code con la extensión Remote-SSH.
 
 ## Imágenes disponibles
 
@@ -24,6 +24,8 @@ Los paquetes principales que se usarán en el curso ya están instalados.
 
   * [Ubuntu-18.04](https://drive.google.com/file/d/1lQXXdfGuLRHf5ktGbrCcM_zRyaTSoOsS/view?usp=sharing)
   * [Ubuntu-20.04](https://drive.google.com/file/d/1JZSAU2ndzrxba75M1qq1KP1MB4PROga5/view?usp=sharing)
+
+Las claves de las VMs son su respectivo nombre.
 
 ## Importar VM
 
@@ -43,13 +45,13 @@ Los paquetes principales que se usarán en el curso ya están instalados.
 
 ![cuarto-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-3.png)
 
-* Por último, hace click en "Importar" y espera a que el servicio termine de ser importado
+* Por último, hacer click en "Importar" y espera a que el servicio termine de ser importado
 
 ![quinto-paso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/importar-vm-dialogo-4.png)
 
 ## Para el archivo `config`
 
-Para abrir el archivo `config` hace click en el ícono azul ubicado en la esquina inferior izquierda y selecciona la opción "Open SSH Configuration File ..."
+Para abrir el archivo `config` hace click en el ícono azul (el color del ícono puede variar con el tema que esté usando en VSCode) ubicado en la esquina inferior izquierda y selecciona la opción "Open SSH Configuration File ..."
 
 ![vscode-config-file](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-config-file.png)
 
@@ -100,3 +102,65 @@ Note que se está usando "ubuntu18" como ejemplo.
 ```shell
 sudo shutdown -P now
 ```
+
+## Para establecer conexión SSH
+
+Primero, verifique que las VMs importadas están disponibles
+
+![vervmsdisponibles](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-ver-vms-disponibles.png)
+
+Luego, ponga en marcha la VM que desee usar
+
+![encendervm](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-encender-vm.png)
+
+Haga click en el ícono de Remote SSH, que está ubicado en la esquina inferior izquierda
+
+![iconoremotessh](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-icono-remote-ssh.png)
+
+Seleccione la opción "Connect to Host"
+
+![connecttohost](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-connect-to-host.png)
+
+Haga click en la VM que encendió
+
+![elegiralgunhost](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-elegir-algun-host.png)
+
+Le saldrá una pantalla parecida a la siguiente, deberá ingresar la clave de la VM.
+
+![ingresarclave](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-clave.png)
+
+Luego, debería observar en la esquina inferior izquierda que dice "SSH:" seguido del nombre de la VM a la que está conectado
+
+![sshexitoso](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-ssh-exitoso.png)
+
+Lo siguiente es abrir un directorio de trabajo, para esto haga click en el ícono del "Explorador" que está arriba de la "lupa"
+
+![clickexplorador](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-click-explorador.png)
+
+Al hacer click, debería observar un columna con un botón que dice "Abra carpeta"
+
+![abracarpeta](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-abra-carpeta.png)
+
+Se recomienda trabajar en el directorio "Documents"
+
+![abracarpetadocs](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-abrir-carpeta-documentos.png)
+
+Y dar click en "Aceptar"
+
+![aceptardocs](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-abrir-carpeta-documentos-aceptar.png)
+
+Es probable que se le vuelva a solicitar la clave.
+
+## Para cerrar conexión SSH
+
+Hace click en el ícono de Remote SSH, y le hace click
+
+![iconoparacerrar](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-cerrar-conexi%C3%B3n.png)
+
+Luego elige la opción "Cerrar conexión remota"
+
+![cerrarconexionremota](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-cerrar-conexi%C3%B3n-remota.png)
+
+En caso desee volver a establecer conexión con el mismo directorio en el que estuvo trabajando, solo haga click en el directorio que desee en "Reciente"
+
+![dirreciente](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-reciente.png)
