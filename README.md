@@ -11,8 +11,19 @@ Estos apuntes están dirigidos a usuarios de Windows10. Las máquinas virtuales 
 
 ## Imágenes disponibles
 
-* [Ubuntu-18.04](https://drive.google.com/file/d/17eUGPDmPD8C9plIF1EdrqPL8qmOOJ9tw/view?usp=sharing)
-* [Ubuntu-20.04](https://drive.google.com/file/d/1m_NJOja1VXeqs6pnyCVahivZhBzPhw9D/view?usp=sharing)
+1. Nuevas:
+ 
+No tienen nada de lo que se va a usar en el curso instalado y se sugiere su uso para aprender a instalar paquetes desde línea de comandos, matar procesos y, en general, para familiarizarse con Ubuntu.
+
+  * [Ubuntu-18.04](https://drive.google.com/file/d/17eUGPDmPD8C9plIF1EdrqPL8qmOOJ9tw/view?usp=sharing)
+  * [Ubuntu-20.04](https://drive.google.com/file/d/1m_NJOja1VXeqs6pnyCVahivZhBzPhw9D/view?usp=sharing)
+
+2. Preparadas:
+
+Los paquetes principales que se usarán en el curso ya están instalados.
+
+  * [Ubuntu-18.04](https://drive.google.com/file/d/1lQXXdfGuLRHf5ktGbrCcM_zRyaTSoOsS/view?usp=sharing)
+  * [Ubuntu-20.04](https://drive.google.com/file/d/1JZSAU2ndzrxba75M1qq1KP1MB4PROga5/view?usp=sharing)
 
 ## Importar VM
 
