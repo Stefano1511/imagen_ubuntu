@@ -57,7 +57,7 @@ Luego seleccionar la primera opción
 
 ![vscode-config-file-2](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-config-file-2.png)
 
-En el archivo que se abra coloque lo siguiente
+En el archivo que se abra, según la VM que desee emplear, coloque alguno de los siguientes datos
 
 ```shell
 Host ubuntu18
