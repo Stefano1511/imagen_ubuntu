@@ -153,7 +153,7 @@ Es probable que se le vuelva a solicitar la clave.
 
 ## Para cerrar conexión SSH
 
-Hace click en el ícono de Remote SSH, y le hace click
+Hace click en el ícono de Remote SSH
 
 ![iconoparacerrar](https://github.com/Stefano1511/imagen_ubuntu/blob/main/imgs/vscode-cerrar-conexi%C3%B3n.png)
 
