@@ -23,7 +23,7 @@ No tienen nada de lo que se va a usar en el curso instalado y se sugiere su uso 
 Los paquetes principales que se usarán en el curso ya están instalados.
 
   * [Ubuntu-18.04](https://drive.google.com/file/d/1lQXXdfGuLRHf5ktGbrCcM_zRyaTSoOsS/view?usp=sharing)
-  * [Ubuntu-20.04](https://drive.google.com/file/d/1JZSAU2ndzrxba75M1qq1KP1MB4PROga5/view?usp=sharing)
+  * [Ubuntu-20.04](https://drive.google.com/file/d/12BEsAhS7oO5HiGgj9GCIHbeYLpR5E8Nw/view?usp=sharing)
 
 Las claves de las VMs son su respectivo nombre.
 
